@@ -140,7 +140,7 @@ let template = try Template(string: templateString)
 try File.createDirectoryAt("READMEs")
 
 for package in packages {
-    try File.createDirectoryAt("READMEs/\(package["parent"]!)\/(package["name"]!)")
+    try File.createDirectoryAt("READMEs/\(package["parent"]!)/\(package["name"]!)")
     let readmeFile = try File(path: "READMEs/\(package["parent"]!)/\(package["name"]!)/README.md", mode: .TruncateWrite)
 
     let readme = try template.render(Box(boxable: package))
