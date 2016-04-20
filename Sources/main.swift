@@ -127,7 +127,7 @@ let package = [
 	"major": "0",
 	"minor": "5"
 	],[
-	"name": "Zewo",
+	"parent": "Zewo",
 	"name": "ContentNegotiationMiddleware",
 	"major": "0",
 	"minor": "5"
