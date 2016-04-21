@@ -1,17 +1,10 @@
 # {{name}}
 
 [![Swift][swift-badge]][swift-url]
+[![Zewo][zewo-badge]][zewo-url]
 [![Platform][platform-badge]][platform-url]
 [![License][mit-badge]][mit-url]
 [![Slack][slack-badge]][slack-url]
-
-**{{name}}** {{description}}
-
-## Usage
-
-```swift
-// do your magic
-```
 
 ## Installation
 
@@ -20,10 +13,14 @@ import PackageDescription
 
 let package = Package(
     dependencies: [
-        .Package(url: "https://github.com/Zewo/{{name}}.git", majorVersion: {{major}}, minor: {{minor}})
+        .Package(url: "https://github.com/{{organization}}/{{name}}.git", majorVersion: {{major}}, minor: {{minor}})
     ]
 )
 ```
+
+## Support
+
+If you need any help you can join our [Slack](http://slack.zewo.io) and go to the **#help** channel. Or you can create a Github [issue](https://github.com/Zewo/Zewo/issues/new) in our main repository.
 
 ## Community
 
@@ -38,7 +35,9 @@ License
 
 [swift-badge]: https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat
 [swift-url]: https://swift.org
-[platform-badge]: https://img.shields.io/badge/Platform-Linux-lightgray.svg?style=flat
+[zewo-badge]: https://img.shields.io/badge/Zewo-0.5-FF7565.svg?style=flat
+[zewo-url]: http://zewo.io
+[platform-badge]: https://img.shields.io/badge/Platforms-OS%20X%20--%20Linux-lightgray.svg?style=flat
 [platform-url]: https://swift.org
 [mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
 [mit-url]: https://tldrlegal.com/license/mit-license
